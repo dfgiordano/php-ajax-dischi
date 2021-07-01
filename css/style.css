@@ -49,11 +49,12 @@ main {
 .cover {
     height: 150px;
     width: 150px;
-    padding-top: 20px;
+    margin-top: 20px;
     cursor: pointer;
 }
 .cover:hover {
     opacity: 0.7;
+    box-shadow: 5px 5px 10px 2px #44D554;
 }
 h2 {
     max-width: 80%;
@@ -69,13 +70,13 @@ h3:hover {
 }
 h3 {
     max-width: 80%;
-    padding: 10px 0;
+    padding: 5px 0;
     text-transform: uppercase;
     font-size: 16px;
     color: white;
 }
 h5 {
-    padding: 10px 0;
+    padding: 5px 0;
     font-size: 14px;
     color: white;
 }
